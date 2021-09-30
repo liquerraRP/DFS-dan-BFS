@@ -20,7 +20,7 @@ Line 14 : visited adalah sebuah list yang digunakan untuk melacak setiap node ya
 
 Line 15 : queue adalah sebuah list yang digunakan untuk melacak node yang ada dalam queue (antrian)
 
-Line 31 : argumen dari fungsi bfs adalah visited list, graph dalam bemtuk dictionary dan starting nodenya adalah 1
+Line 31 : argumen dari fungsi bfs adalah visited list, graph dalam bentuk dictionary dan starting nodenya adalah 1
 
 Lines 17-28 : algoritma bfs dijalankan :
 

@@ -2,6 +2,8 @@
 
 ![soal BFS DFS](https://user-images.githubusercontent.com/73216938/135390047-ed85760c-4bf6-4314-a8fd-2cae4f068598.jpeg)
 
+## **Penjelasan DFS**
+
 Lines 1-12 : setiap node diilustasikan menggunakan adjacency list dimana ini adalah sebuah cara yang mudah dilakukan di phyton menggunakan data structure. Dimana setiap vertex memiliki list dari node yang bersebelahan
 
 Line 15 : variabel visited dingunakan untuk melacak setiap node yang sudah dilewati 

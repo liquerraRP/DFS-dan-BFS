@@ -8,7 +8,7 @@ Lines 1-12 : setiap node diilustasikan menggunakan adjacency list dimana ini ada
 
 Line 15 : variabel visited dingunakan untuk melacak setiap node yang sudah dilewati 
 
-Line 25: dfs function dipanggil dimana didalamnya 
+Line 25: dfs function dipanggil memindahkan visited set, graph dalam bentuk dictionary, dan 1 sebagai starting nodenya
 
 Lines 17-22: dfs mengikuti algoritma yang sudah dibuat. Pertama adalah mengecek apakah sebuah node sudah pernah dilewati, jika true maka pada node tersebut ditambahkan visited set. Lalu pada setiap node yang bersebelahan dengan node tersebut, lalu dfs function dipanggil lagi. Setelah semua node sudah dilewati maka function akan direturn.
 
@@ -22,7 +22,7 @@ Line 15 : queue adalah sebuah list yang digunakan untuk melacak node yang ada da
 
 Line 31 : argumen dari fungsi bfs adalah visited list, graph dalam bemtuk dictionary dan starting nodenya adalah 1
 
-Lines 17-28 : algoritma bfs dijalankan
+Lines 17-28 : algoritma bfs dijalankan :
 
 algoritma tersebut memeriksa dan menambah starting node ke dalam visited list and queue(antrian). Lalu selama queue mengandung elemen didalamnya, maka algoritma tersebut tetap mengambil node dari queue, menambahkan node yang bersebelahan dari node tersebut kedalam queue jika node yang bersebelahan tersebut belum dilewati sebelumnya, dan menandai node itu sebagai visited node(sudah dilewati)
 

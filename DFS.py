@@ -22,4 +22,4 @@ def dfs(visited, graph, node):
             dfs(visited, graph, neighbour)
 
 
-dfs(visited, graph, '2')
+dfs(visited, graph, '1')
